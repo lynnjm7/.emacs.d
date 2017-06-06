@@ -49,4 +49,4 @@
 
 ;; Install rust-mode
 (use-package rust-mode :ensure t :pin melpa)
-
+(setq rust-format-on-save t)
